@@ -1,5 +1,6 @@
 package Java_level_1_3;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -10,10 +11,10 @@ public class Java_lesson_3 {
         // ex1();
         //   System.out.println("Ex 2");
         // ex2();
-        //  System.out.println("Ex 3");
-        //    ex3();
-          System.out.println("Ex 4");
-            ex4();
+          System.out.println("Ex 3");
+            ex3();
+        //  System.out.println("Ex 4");
+         //   ex4();
         //    System.out.println("Ex 5");
         //      ex5(5, 7);
         //  System.out.println("Ex 6");
@@ -53,13 +54,13 @@ public class Java_lesson_3 {
     }
 
     public static void ex3() {
-        int[] arr3 = new int[20];
+        int[] arr3 = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
         for (int i = 0; i < arr3.length; i++) {
-            arr3[i] = i + 1;
-            System.out.print(i + ":");
-            Random rand = new Random();
-            int x = rand.nextInt(20);
-            System.out.println(x);
+            if (arr3[i] < 6){
+                arr3[i] = arr3[i] * 2;
+              //  System.out.println(">"+i);
+            }
+            System.out.print(arr3[i]+" ");
         }
     }
 
