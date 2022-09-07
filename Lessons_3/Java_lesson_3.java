@@ -1,6 +1,5 @@
-package Java_level_1_3;
+package Lessons_3;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
