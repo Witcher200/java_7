@@ -1,7 +1,7 @@
 package Jav_Level_1_4;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
+//import javafx.application.Application;
+//import javafx.stage.Stage;
 
 import java.util.Random;
 import java.util.Scanner;

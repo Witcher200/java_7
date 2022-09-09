@@ -17,11 +17,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean m1(int a, int b) {
-        if ((a + b) >= 10 && (a + b) <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a + b) >= 10 && (a + b) <= 20;
     }
 
     public static  void m2(int a) {
@@ -35,9 +31,10 @@ public class HomeWorkApp2 {
     public static boolean m3(int a) {
         if (a < 0) {
         return true;
-        } else if (a > 0) {
+        } else  {
+            return false;
         }
-        return false;
+
     }
 
     public static void  m4(String s, int a) {

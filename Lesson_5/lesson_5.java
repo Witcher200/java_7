@@ -1,7 +1,7 @@
 package Lesson_5;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
+//import javafx.application.Application;
+//import javafx.stage.Stage;
 
 public class lesson_5 {
 
