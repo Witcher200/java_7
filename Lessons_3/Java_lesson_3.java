@@ -10,13 +10,13 @@ public class Java_lesson_3 {
              ex1();
            System.out.println("Ex 2");
              ex2();
-          System.out.println("Ex 3");
-            ex3();
-          System.out.println("Ex 4");
-            ex4();
+           System.out.println("Ex 3");
+             ex3();
+           System.out.println("Ex 4");
+             ex4();
             System.out.println("Ex 5");
               ex5(5, 7);
-          System.out.println("Ex 6");
+            System.out.println("Ex 6");
          ex6(10);
          ex6(15);
     }

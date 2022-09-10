@@ -1,8 +1,5 @@
 package Lesson_5;
 
-//import javafx.application.Application;
-//import javafx.stage.Stage;
-
 public class lesson_5 {
 
     public static void main(String[] args){
